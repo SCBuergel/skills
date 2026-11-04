@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Public AI agent skills — practical skills spanning multiple domains, from engineering, idea validation all the way to knowledge management.",
-    "version": "2.0.0"
+    "version": "2.1.0"
   },
   "plugins": [
     {
@@ -79,6 +79,15 @@
       "strict": true,
       "metadata": {
         "version": "1.1.0"
+      }
+    },
+    {
+      "name": "media-digest",
+      "description": "Fetch the transcript of any yt-dlp media or the text of a web article, save it locally, and write a loss-checked summary with a short version and follow-up points.",
+      "source": "./knowledge/media-digest",
+      "strict": true,
+      "metadata": {
+        "version": "0.2.0"
       }
     },
     {
