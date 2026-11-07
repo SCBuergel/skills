@@ -16,6 +16,7 @@ Layout: `<domain>/<plugin>/skills/<skill>`. The host shows `plugin:skill`.
 |                     | `project-docs`      | Standard `docs/` (overview, spec, ADRs) with a validator         |
 | `review`            | `by-angle`          | Red-first block loop plus four read-only review angles           |
 |                     | `code-quality`      | Risk audit from complexity, coverage, duplication metrics        |
+|                     | `security`          | Run secret, dependency, SAST, CI scanners; AI triage             |
 | `swe`               | `rust`              | Rust house guidelines on every change                            |
 |                     | `typescript`        | TypeScript and JavaScript house guidelines on every change       |
 | `orchestrate`       | `assign`, `pull`    | Multi-agent runs: dispatcher or peer swarm over a shared board   |
